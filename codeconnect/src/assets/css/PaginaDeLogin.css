@@ -14,17 +14,10 @@
 }
 
 /* Estilos do titulo */
-.form__titulo {
-    font-size: 31px;
-    font-weight: 600;
-}
+
 
 /* Estilos do subtitulo */
-.form__texto {
-    margin: 1.5em 0 2.5em 0;
-    font-weight: 400;
-    font-size: 22px;
-}
+
 
 /* Estilos do campo de seleção */
 .form__campo-checkbox {
