@@ -1,12 +1,9 @@
-import Subtittle from "./components/Subtittle";
-import Tittle from "./components/Tittle";
-
+import PageLogin from "./components/PageLogin";
 
 function App() {
   return (
     <>
-      <Tittle />
-      <Subtittle />
+      <PageLogin />
     </>
   );
 }

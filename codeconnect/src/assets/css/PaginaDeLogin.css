@@ -1,11 +1,5 @@
 /* Estilos do container principal */
-.container-login {
-    display: flex;
-    background-color: var(--cinza-escuro);
-    padding: 3.5em 5em;
-    border-radius: 32px;
-    gap: 3em;
-}
+
 
 .container-login form {
     margin: 0 14.5px;
