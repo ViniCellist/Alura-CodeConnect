@@ -1,17 +1,10 @@
-/* Estilos do container principal */
-
+@import url("./styles.css");
 
 .container-login form {
     margin: 0 14.5px;
     font-size: 18px;
     font-weight: 400;
 }
-
-/* Estilos do titulo */
-
-
-/* Estilos do subtitulo */
-
 
 /* Estilos do campo de seleção */
 .form__campo-checkbox {
@@ -55,33 +48,6 @@
 
 .form__campo-checkbox input[type=checkbox]:checked+label::after {
     opacity: 1;
-}
-
-/* Estilos do botão */
-.form__botao {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: .5em;
-    color: var(--verde-petroleo);
-    background-color: var(--verde-destaque);
-    width: 100%;
-    padding: 12px 16px 12px 16px;
-    border-radius: 8px;
-    border: none;
-    font-family: var(--fonte);
-    font-size: 18px;
-    font-weight: 600;
-    margin: 2em 0;
-}
-
-.form__botao::after {
-    content: ' ';
-    width: 25px;
-    height: 20px;
-    background-image: url('../img/flecha.svg');
-    background-repeat: no-repeat;
-    background-size: 1em;
 }
 
 /* Estilos das opções / fieldset */
