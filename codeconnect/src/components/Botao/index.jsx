@@ -1,12 +1,12 @@
 import "./Botao.css";
 
-function Botao() {
+function Botao({children}) {
     return (
         <button 
             type="submit"
             className="form__botao"
         >
-            Login
+            {children}
         </button>
     )
 }

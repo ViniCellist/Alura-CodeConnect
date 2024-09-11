@@ -13,7 +13,7 @@ function PageLogin() {
             <section>
                 <form>
                     <Tittle>Login</Tittle>
-                    <Subtittle />
+                    <Subtittle>Boas vindas! Faça seu login</Subtittle>
                     <CampoDeDigitacao
                         label="E-mail ou usuário"  
                         tipo="email"
@@ -24,7 +24,7 @@ function PageLogin() {
                         tipo="password"
                         placeholder="Digite sua senha"
                     />
-                    <Botao />
+                    <Botao>Login</Botao>
                 </form>
             </section>
         </div>

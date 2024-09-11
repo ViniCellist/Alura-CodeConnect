@@ -1,8 +1,8 @@
 import "./Subtittle.css";
 
-function Subtittle() {
+function Subtittle({children}) {
     return (
-        <h2 className="form__texto">Boas-vindas! Faça seu login.</h2>
+        <h2 className="form__texto">{children}</h2>
     );
 };
 

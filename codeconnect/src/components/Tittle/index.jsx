@@ -1,8 +1,8 @@
 import "./Tiitle.css";
 
-function Tittle() {
+function Tittle({children}) {
     return (
-        <h1 className="form__titulo">Login</h1>
+        <h1 className="form__titulo">{children}</h1>
     );
 };
 
