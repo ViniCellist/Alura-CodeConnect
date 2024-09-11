@@ -2,6 +2,8 @@ import './PageLogin.css';
 import Subtittle from './../Subtittle/index';
 import Tittle from './../Tittle/index';
 import imagemLogin from '../../assets/img/imagem-login.png';
+import CampoDeDigitacao from '../CampoDeDigitacao';
+import Botao from '../Botao';
 
 function PageLogin() {
     return (
@@ -10,26 +12,19 @@ function PageLogin() {
 
             <section>
                 <form>
-                    <Tittle />
+                    <Tittle>Login</Tittle>
                     <Subtittle />
-                    <div className='form__campo-digitacao' >
-                        <label for='email'>E-mail ou usuário</label>
-                        <input 
-                            type='email'
-                            placeholder='Digite o seu e-mail ou usuário'
-                            required
-                            id='email'
-                        />
-                    </div>
-                    <div className='form__campo-digitacao'>
-                        <label for="senha">Senha</label>
-                        <input 
-                            type="password" 
-                            placeholder='Digite sua senha'
-                            required
-                            id="senha"
-                        />
-                    </div>
+                    <CampoDeDigitacao
+                        label="E-mail ou usuário"  
+                        tipo="email"
+                        placeholder="Digite o seu e-mail ou senha" 
+                    />
+                    <CampoDeDigitacao 
+                        label="Senha"
+                        tipo="password"
+                        placeholder="Digite sua senha"
+                    />
+                    <Botao />
                 </form>
             </section>
         </div>
