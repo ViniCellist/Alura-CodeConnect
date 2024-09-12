@@ -1,14 +1,16 @@
 import "./CampoDeDigitacao.css";
 
-function CampoDeDigitacao({label, tipo, placeholder}) {
+function CampoDeDigitacao({label, tipo, placeholder, value, setValor}) {
     return (
         <div className='form__campo-digitacao' >
-            <label for='email'>{label}</label>
+            <label for={tipo}>{label}</label>
             <input 
                 type={tipo}
                 placeholder={placeholder}
                 required
-                id='email'
+                id={tipo}
+                value={value}
+                onChange={(e) => setValor(e.target.value)}
             />
         </div>
     );
