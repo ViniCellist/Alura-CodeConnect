@@ -1,0 +1,16 @@
+/* Estilos das opções / fieldset */
+.form__opcoes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    margin-top: .5em;
+    border: none;
+}
+
+.form__opcoes a {
+    color: var(--offwhite);
+    font-family: Prompt;
+    text-align: right;
+    font-size: 15px;
+}
