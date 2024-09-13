@@ -1,0 +1,25 @@
+/* Estilos do container de links / redes sociais */
+.container-links {
+    text-align: center;
+}
+
+.container-links ul {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 1.5em;
+    margin: .5em 0 1.5em 0;
+}
+
+.container-links ul li {
+    list-style-type: none;
+}
+
+.container-links ul li a {
+    text-decoration: none;
+    color: var(--offwhite);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 13px;
+}

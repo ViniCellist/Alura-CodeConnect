@@ -1,0 +1,6 @@
+/* Estilos do texto do container de links */
+.container-links__texto {
+    font-size: 15px;
+    color: var(--offwhite);
+    margin-bottom: .9em;
+}
