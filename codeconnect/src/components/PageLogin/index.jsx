@@ -5,6 +5,8 @@ import imagemLogin from '../../assets/img/imagem-login.png';
 import CampoDeDigitacao from '../CampoDeDigitacao';
 import Botao from '../Botao';
 import { useState } from 'react';
+import Checkbox from '../Checkbox';
+import Fieldset from '../Fieldset';
 
 function PageLogin() {
 
@@ -39,6 +41,12 @@ function PageLogin() {
                         value={senha}
                         setValor={setSenha}
                     />
+                    <Fieldset>
+                        <Checkbox />
+                        <p>
+                            <a href='#' aria-label='Recuperar senha esquecida'>Esqueci a senha</a>
+                        </p>
+                    </Fieldset>
                     <Botao>Login</Botao>
                 </form>
             </section>
